@@ -1,5 +1,29 @@
 # kanban
 
+Try me :)
+[My-Kanban](`https://my-new-project-1586483971529.firebaseapp.com/`)
+
+## Instructions
+
+1. Clone this repo  
+2. run `npm install` either in server folder or client folder.
+  
+- **SERVER**  
+
+3. run `npx sequelize-cli db:create` on server folder  
+**DON'T FORGET TO CONFIG YOUR DB (config.js)**
+4. run `npx sequelize-cli db:migrate` then
+5. run `node app.js` on your server folder  
+( _server should be `http://localhost:3000`_ )  
+( Hosted server `https://vast-wave-36573.herokuapp.com` )
+
+- **CLIENT**  
+
+6. Install `parcel-bundler` if you didn't have it yet  
+( `npm install -g parcel-bundler` )  
+7. go through `client/public/` folder
+8. run `parcel index.html`  
+( _client should be `http://localhost:1234`_ )
 
 ## Docs 
 # CRUD Database
