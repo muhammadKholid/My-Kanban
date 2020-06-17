@@ -3,8 +3,8 @@
   <div class="highest-container">
     <div class="high-container">
       <Navbar @checkNumberLogout=logout></Navbar>
-      <div class="con-title title-1">
-        <h2 class="title">Actions</h2> 
+      <div class="con-title">
+        <h2 class="title-actions">Add Your Task here</h2> 
       </div>
 
       <div class="con-content">
@@ -13,10 +13,10 @@
     </div>
 
 
-    <div class="high-container">
+    <div class="high-container1">
 
 
-      <div class="container" v-for="(category, index) in categories" :key="category">
+      <div class="container" v-for="(category, index) in categories" :key="index">
 
         <Box
           :task="tasks"
@@ -50,7 +50,7 @@ export default{
   data(){
     return {
       tasks: [],
-      categories: ["Backlog", "Todo", "Done", "Completed"]
+      categories: [{title: "Backlog", color:"0"}, {title: "Todo", color:"1"}, {title: "Done", color:"2"}, {title: "Completed", color:"3"}]
     }
   },
   created(){
@@ -89,3 +89,24 @@ export default{
   }
 }
 </script>
+<style>
+.high-container{
+  margin: 0;
+  background-color:#2d2d2d;
+  padding: 1rem 1.6rem 1rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.high-container1{
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border : 3px solid black;
+}
+.title-actions{
+  color: #f5f5f5;
+}
+</style>

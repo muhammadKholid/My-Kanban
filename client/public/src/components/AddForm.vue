@@ -55,3 +55,9 @@
     }
   })
 </script>
+
+<style>
+.form-add{
+  background-color: #2d2d2d;
+}
+</style>

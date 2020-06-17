@@ -1,6 +1,9 @@
+
+      /* categories: ["Backlog", "Todo", "Done", "Completed"], */
+      /* categories: [{title: "Backlog", color:"#EEF5DB"}, {title: "Todo", color:"#ffc845"}, {title: "Done", color:"#e63462"}, {title: "Completed", color:"lightseagreen"}] */
 body{
-  margin: 20px;
-  background-color: black;
+  margin: 0;
+  background-color:#f5f5f5;
 }
 
 img{
@@ -22,13 +25,7 @@ margin-top: 26px;
 
 .container{
   background-color: #333745;
-  margin: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.high-container{
-  background-color: #333745;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   margin: 20px;
   display: flex;
   flex-direction: row;
@@ -75,12 +72,12 @@ h1{
 .card{
   display: flex;
   flex-direction: column;
-  margin: 4px;
+  margin: .5rem .5rem .5rem .5rem;
   color: #333745;
-
+  background-color: #2d2d2d;
 }
 .info{
-  padding-left: 16px;
+  padding: .5rem;
   font-size: 18px;
   color: #EEF5DB;
 }

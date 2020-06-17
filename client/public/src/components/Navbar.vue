@@ -10,7 +10,7 @@
 
 
 <script charset="utf-8">
-import Swal from 'sweetalert2'
+  import Swal from 'sweetalert2'
 
   export default{
     name: 'Navbar',
@@ -38,3 +38,9 @@ Swal.fire({
     }
   }
 </script>
+
+<!-- <style> -->
+<!-- .form-add{ -->
+<!--   background-color: #333745; -->
+<!-- } -->
+<!-- </style> -->
