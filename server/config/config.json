@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "tempatbersinggah",
+    "password": "postgres",
+    "database": "kanban",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "fqcrhjswbzhkce",
+    "password": "d4d1796eee919f519b43b4660250850aac65c7fd9d29f2a716b458466f4139e7",
+    "database": "d5m68k4h3c1m2f",
+    "host": "ec2-3-223-21-106.compute-1.amazonaws.com",
+    "dialect": "postgres"
+  }
+}

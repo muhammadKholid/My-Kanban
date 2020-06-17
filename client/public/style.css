@@ -1,0 +1,171 @@
+body{
+  margin: 20px;
+  background-color: black;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+#banner{
+  margin: 0 20px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.banner-logout{
+margin-top: 26px;
+}
+
+.container{
+  background-color: #333745;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.high-container{
+  background-color: #333745;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+h1{
+  color: white;
+  display: inline-block;
+}
+
+.sub-container{
+  width:250px;
+  margin: 5px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.con-title{
+  text-align:center;
+}
+
+.title-1{
+  background-color: #EEF5DB;
+}
+.title-2{
+  background-color: #ffc845;
+}
+.title-3{
+  background-color: #E63462;
+}
+.title-4{
+  background-color: lightseagreen;
+}
+
+.con-content{
+  margin: 7px;
+  background-color: #333745;
+  display: flex;
+  flex-direction: column;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  margin: 4px;
+  color: #333745;
+
+}
+.info{
+  padding-left: 16px;
+  font-size: 18px;
+  color: #EEF5DB;
+}
+.login-btn{
+  display: flex;
+  justify-content: space-between;
+}
+
+button, .g-signin-button{
+  height: 35px;
+  width: 110px;
+  background-color: white;
+  border-radius: 7px;
+  color: black;
+  text-align: center;
+  font-size:15px;
+  border: 0;
+}
+.delete-btn{
+  margin-top: 9px;
+  background-color: black;
+  color: #E63462;
+  font-size: 11px;
+}
+.action-btn{
+  display: flex;
+  justify-content:space-between;
+}
+#reg-button{
+  display: flex;
+  justify-content:space-between;
+}
+.edit-btn{
+  margin-top: 9px;
+}
+#add-btn{
+  margin-top: 20px;
+}
+.home{
+  height: 50px;
+  width: 100px;
+  background-color: #333745;
+  border-radius: 10px;
+  color: white;
+  line-height: 50%;
+}
+
+form{
+  display: flex;
+  flex-direction:column; 
+}
+input, select{
+  width: 200px;
+  height: 29px;
+  border: 0;
+  border-radius: 4px;
+  font-size: 15px;
+}
+label{
+  color: white;
+}
+.input-task{
+  width: 200px;
+  height: 40px;
+  border-radius: 7px;
+}
+.form-add{
+  background-color:black;
+}
+
+#form-login, #form-register{
+  background-color: black;
+  border-radius: 15px;
+  padding: 30px;
+  margin:78px 0 78px 0;
+  color: white;
+}
+a{
+  color: #ffc845;
+}
+
+.action{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
