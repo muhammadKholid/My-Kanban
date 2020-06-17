@@ -31,7 +31,7 @@ class Controller {
           const check = checkPass(theUser.password, response.password);
           if (check) {
             const token = jwtSign(response.id, response.email, process.env.JWT_SECRET);
-            res.status(200).json({ message: 'Berhasil login', token: token });
+            res.status(200).json({ message: 'Berhasil login', token: token, data: response });
           } else {
           }
         } else {
