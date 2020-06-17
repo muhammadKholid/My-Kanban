@@ -1,7 +1,7 @@
 # kanban
 
 Try me :)
-[My-Kanban](`https://my-new-project-1586483971529.firebaseapp.com/`)
+[My-Kanban](https://my-new-project-1586483971529.firebaseapp.com/)
 
 ## Instructions
 
