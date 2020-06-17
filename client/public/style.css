@@ -73,13 +73,21 @@ h1{
   display: flex;
   flex-direction: column;
   margin: .5rem .5rem .5rem .5rem;
-  color: #333745;
+  color: #EEF5DB;
   background-color: #2d2d2d;
 }
+
+.card-active{
+  display: flex;
+  flex-direction: column;
+  margin: .5rem .5rem .5rem .5rem;
+  color: #2d2d2d;
+  background-color: #EEF5DB;
+}
+
 .info{
   padding: .5rem;
   font-size: 18px;
-  color: #EEF5DB;
 }
 .login-btn{
   display: flex;

@@ -1,6 +1,6 @@
 <template>
-  <div class="card">
-    <div v-if="page"  class="info">
+  <div class="card" :class="{ 'card-active' : checkUser }">
+    <div v-if="page" class="info">
       <h3 class="title-info">{{ item.title }}</h3>
       <div class="action-btn">
         <button @click="deleteTask(item.id)" class="delete-btn" type="button">X</button>
@@ -32,6 +32,17 @@ export default{
     }
   },
   props: [ "item" ],
+  computed: {
+      checkUser(){
+        const loggedUser = localStorage.getItem('userId')
+        const dataId = this.item.UserId
+        if (loggedUser == dataId){
+          return true
+        } else {
+          return false
+        }
+      }
+    },
   methods: {
     deleteTask(id){
       Swal.fire({

@@ -92,7 +92,9 @@
                 'Login!',
                 'success'
               )
+              console.log(theUser)
             localStorage.setItem('token', theUser.token)
+            localStorage.setItem('userId', theUser.data.id)
             this.form.email = '';
             this.form.password = '';
             this.$emit('checkNumberForPage', true)
